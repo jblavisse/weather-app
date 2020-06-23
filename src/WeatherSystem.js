@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+import "./WeatherSystem.css";
+
 import Period from "./Period";
 
 class WeatherSystem extends Component {
@@ -24,7 +26,7 @@ class WeatherSystem extends Component {
         })
 
         return ( 
-            <div className="weathers">
+            <div className="weathersystem">
                 {periodsList}
             </div>
          );
